@@ -1,0 +1,32 @@
+{
+  "name": "using-storybook-for-react",
+  "version": "1.0.0",
+  "description": "Using storybook for React applications",
+  "main": "index.js",
+  "scripts": {
+    "start": "start-storybook -p 9001 -c .storybook"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bharat-srinivasan/using-storybook-for-react.git"
+  },
+  "keywords": [
+    "storybook",
+    "react"
+  ],
+  "author": "Bharat Srinivasan <bharatsrinivasan5@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bharat-srinivasan/using-storybook-for-react/issues"
+  },
+  "homepage": "https://github.com/bharat-srinivasan/using-storybook-for-react#readme",
+  "devDependencies": {
+    "@storybook/react": "^3.4.10",
+    "babel-core": "^6.26.3"
+  },
+  "dependencies": {
+    "prop-types": "^15.6.2",
+    "react": "^16.5.1",
+    "react-dom": "^16.5.1"
+  }
+}
